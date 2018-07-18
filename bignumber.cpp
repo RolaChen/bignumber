@@ -52,7 +52,7 @@ void bignumber::readline()
 		readline();
 		j = 0;
 	}
-	if (equal == -1)
+	if (equal == -1 && j)
 	{
 		cout << "The input is illegal" << endl << endl;
 		readline();
